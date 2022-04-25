@@ -1,0 +1,20 @@
+Source: bully
+Section: net
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Build-Depends: debhelper-compat (= 12), libpcap-dev, libssl1.0-dev, liblua5.3-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/kimocoder/bully
+Vcs-Git: https://gitlab.com/kalilinux/packages/bully.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/bully
+
+Package: bully
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pixiewps, aircrack-ng
+Description: Implementation of the WPS brute force attack, written in C
+ Bully is a new implementation of the WPS brute force attack, written in C. It
+ is conceptually identical to other programs, in that it exploits the (now well
+ known) design flaw in the WPS specification. It has several advantages over
+ the original reaver code. These include fewer dependencies, improved memory
+ and cpu performance, correct handling of endianness, and a more robust set of
+ options.

@@ -1,0 +1,70 @@
+bully (1.4.00-0kali1) kali-dev; urgency=medium
+
+  * Update debian/watch
+  * New upstream version 1.4.00
+  * Update debian/copyright
+  * Refresh patches
+  * Bump Standards-Version to 4.5.0
+  * Build with lua5.3
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 04 Feb 2020 14:11:58 +0100
+
+bully (1.1.+git20190923-0kali1) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Update Maintainer field
+  * Update Vcs-* fields for the move to gitlab.com
+  * Add GitLab's CI configuration file
+  * Configure git-buildpackage for Kali
+  * Update URL in GitLab's CI configuration file
+
+  [ Sophie Brun ]
+  * Change upstream repo
+  * New upstream version 1.1.+git20190923
+  * Refresh debian/patches
+  * Remove python Gui installation (in Python 2 and not maintained)
+  * Use debhelper-compat 12
+  * Bump Standards-Version to 4.4.1
+  * Remove useless lintian-overrides
+  * Update debian/copyright
+  * Add a patch to fix spelling errors
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 03 Jan 2020 15:59:02 +0100
+
+bully (1.1+git20170330-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 06 Apr 2017 15:01:19 +0200
+
+bully (1.0-22-0kali2) kali-dev; urgency=medium
+
+  * Do not hardcode dependencies on C libraries.
+  * Modernize packaging.
+  * Fix up URL in debian/copyright
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 25 Nov 2015 17:38:17 +0100
+
+bully (1.0-22-0kali1) kali; urgency=low
+
+  * Upstream import (Closes: 0000832)
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 03 Jan 2014 14:51:24 -0500
+
+bully (1.0-20-1kali0) kali; urgency=low
+
+  * Imported new upstream. (Closes: 0000664)
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 22 Oct 2013 12:47:06 -0600
+
+bully (0.1-1kali1) kali; urgency=low
+
+  * Fix channel issue from upstream.
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 26 Mar 2013 06:10:15 -0400
+
+bully (0.1-1kali0) kali; urgency=low
+
+  * Initial release (Closes: 110)
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 20 Mar 2013 14:28:04 -0400

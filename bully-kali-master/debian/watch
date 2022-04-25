@@ -1,0 +1,9 @@
+version=3
+opts="uversionmangle=s/-/./" \
+https://github.com/kimocoder/bully/releases/ .*/v?(\d\S*)\.tar\.gz
+
+# Former hosting places:
+#https://github.com/aanarchyy/bully/
+# http://code.google.com/p/wps-bully/
+# https://github.com/bdpurcell/bully
+# https://github.com/Lrs121/bully
